@@ -7,3 +7,11 @@ If the number is zero, display 'This is zero'
 NOTE: 'userInput' should be the number entered by the user.
 
 */
+
+#include <stdio.h>
+
+int main()
+{
+	int Num;
+
+

@@ -12,7 +12,7 @@ int main()
 	int score;
 
 	printf("Please enter your total score: ");
-	scanf("%d", score);
+	scanf("%d", &score);
 
 	if (score < 80)
 		printf("Sorry, you are not eligible to be enrolled.");
