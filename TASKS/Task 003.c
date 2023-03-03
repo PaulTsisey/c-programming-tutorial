@@ -12,6 +12,16 @@ NOTE: 'userInput' should be the number entered by the user.
 
 int main()
 {
-	int Num;
+	int num;
 
-
+	printf("Enter a number: ");
+	scanf("%d", &num);
+	
+	if (num != 0 && num % 2 == 1)
+		printf("\nuserInput is Odd");
+	else if (num != 0 && num % 2 == 0)
+		printf("\nuserInput is even");
+	else
+		printf("\nThis is zero");
+	return (0);
+}
